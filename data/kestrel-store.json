@@ -1,0 +1,541 @@
+{
+  "conversations": [
+    {
+      "id": "conv_security_core",
+      "name": "Core Security & Protocol",
+      "kind": "team",
+      "description": "Zero-knowledge key rotation, Chiat-ratchet audits, and release readiness.",
+      "participants": [
+        {
+          "id": "usr_elena",
+          "name": "Elena Vance",
+          "role": "Security Architect",
+          "avatarUrl": "/src/assets/images/avatar_elena_1794645820461.jpg",
+          "fingerprint": "48291 09412 77310 55192 84012 31904",
+          "approvedForChild": true
+        },
+        {
+          "id": "usr_marcus",
+          "name": "Marcus Chen",
+          "role": "VP Engineering",
+          "avatarUrl": "/src/assets/images/avatar_marcus_1794645820744.jpg",
+          "fingerprint": "91023 44182 62019 33812 19042 77215",
+          "approvedForChild": true
+        },
+        {
+          "id": "usr_priya",
+          "name": "Priya Nair",
+          "role": "Design Systems Director",
+          "avatarUrl": "/src/assets/images/avatar_priya_1794645820867.jpg",
+          "fingerprint": "55102 88391 12049 66401 73920 11842",
+          "approvedForChild": false
+        }
+      ],
+      "roomSalt": "salt_kestrel_sec_core_991a",
+      "keyEpoch": 4,
+      "isVipBypass": true,
+      "unreadCount": 0,
+      "lastMessageAt": 1794646988894
+    },
+    {
+      "id": "conv_product_launch",
+      "name": "Q4 Product Launch",
+      "kind": "team",
+      "description": "Cross-functional launch timeline, customer briefings, and calendar milestones.",
+      "participants": [
+        {
+          "id": "usr_marcus",
+          "name": "Marcus Chen",
+          "role": "VP Engineering",
+          "avatarUrl": "/src/assets/images/avatar_marcus_1794645820744.jpg",
+          "fingerprint": "91023 44182 62019 33812 19042 77215",
+          "approvedForChild": true
+        },
+        {
+          "id": "usr_priya",
+          "name": "Priya Nair",
+          "role": "Design Systems Director",
+          "avatarUrl": "/src/assets/images/avatar_priya_1794645820867.jpg",
+          "fingerprint": "55102 88391 12049 66401 73920 11842",
+          "approvedForChild": false
+        },
+        {
+          "id": "usr_elena",
+          "name": "Elena Vance",
+          "role": "Security Architect",
+          "avatarUrl": "/src/assets/images/avatar_elena_1794645820461.jpg",
+          "fingerprint": "48291 09412 77310 55192 84012 31904",
+          "approvedForChild": true
+        }
+      ],
+      "roomSalt": "salt_kestrel_launch_742b",
+      "keyEpoch": 2,
+      "unreadCount": 0,
+      "lastMessageAt": 1794643878448
+    },
+    {
+      "id": "conv_elena_dm",
+      "name": "Elena Vance",
+      "kind": "direct",
+      "description": "Direct encrypted channel · Hardware key verified",
+      "avatarUrl": "/src/assets/images/avatar_elena_1794645820461.jpg",
+      "participants": [
+        {
+          "id": "usr_elena",
+          "name": "Elena Vance",
+          "role": "Security Architect",
+          "avatarUrl": "/src/assets/images/avatar_elena_1794645820461.jpg",
+          "fingerprint": "48291 09412 77310 55192 84012 31904",
+          "approvedForChild": true
+        }
+      ],
+      "roomSalt": "salt_kestrel_elena_dm_318c",
+      "keyEpoch": 7,
+      "isVipBypass": true,
+      "isLocked": false,
+      "unreadCount": 0,
+      "lastMessageAt": 1794645198448
+    },
+    {
+      "id": "conv_family_maya",
+      "name": "Family Safe Circle (Maya)",
+      "kind": "family",
+      "description": "Guardian-protected family channel with safe message filtering active.",
+      "avatarUrl": "/src/assets/images/avatar_maya_1794645820387.jpg",
+      "participants": [
+        {
+          "id": "usr_maya",
+          "name": "Maya Lin",
+          "role": "Family · Protected Profile",
+          "avatarUrl": "/src/assets/images/avatar_maya_1794645820387.jpg",
+          "fingerprint": "33018 77291 49012 88201 64109 55283",
+          "isChildAccount": true,
+          "approvedForChild": true
+        },
+        {
+          "id": "usr_elena",
+          "name": "Elena Vance",
+          "role": "Security Architect",
+          "avatarUrl": "/src/assets/images/avatar_elena_1794645820461.jpg",
+          "fingerprint": "48291 09412 77310 55192 84012 31904",
+          "approvedForChild": true
+        }
+      ],
+      "roomSalt": "salt_kestrel_family_604d",
+      "keyEpoch": 3,
+      "isVipBypass": true,
+      "unreadCount": 0,
+      "lastMessageAt": 1794639558448
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_101",
+      "conversationId": "conv_security_core",
+      "senderId": "usr_elena",
+      "senderName": "Elena Vance",
+      "senderAvatarUrl": "/src/assets/images/avatar_elena_1794645820461.jpg",
+      "createdAt": 1794642078448,
+      "ciphertext": "pDSBFRtQWS9TzeHE6Wd6d9gosnpt4v/c0nv39qCId/sFthzDqbFUCusx9zON+INdE7hrXQgX0Wxh4eMjR35jEAt0yZ+1P9kROrx8hFTxl+iyMpR4APPFKwVt8rl5s61BOlNYMkYNO+wtSiTY6RLUhQdvR1BdCUl/60rW/1cILQTWjDoD2vj6JbkU5w/fNcehpRddU0uFGwzNWqIaJPsWibo=",
+      "iv": "7R63B/kSFRk4MyO5",
+      "ratchetIndex": 1,
+      "keyEpoch": 4,
+      "cipherSuite": "ECDH-P256 / Chiat-Ratchet AES-256-GCM",
+      "senderFingerprint": "48291 09412 77310 55192 84012 31904",
+      "reactions": {
+        "✓": [
+          "usr_marcus",
+          "me"
+        ]
+      }
+    },
+    {
+      "id": "msg_102",
+      "conversationId": "conv_security_core",
+      "senderId": "usr_marcus",
+      "senderName": "Marcus Chen",
+      "senderAvatarUrl": "/src/assets/images/avatar_marcus_1794645820744.jpg",
+      "createdAt": 1794643038448,
+      "ciphertext": "wl9Wvl8MTih9tQkQCwPUqw0kPRHzLTYNt+DcVVukCuRfV38vrN6KNXY1GHOMf2T82BcTVNAhDPN+YAmsUwUY+16pdjScTEt7gbNwTu9MLe4tuIxSQdMN2BcJ8zMaCOowxCzeJEH7xxMZ/3+4iFlpEcqyvdI9m7td3yN1xiZNj9r3IxlplVZHvH3qx/YElVPIjIJnCqiZuf8q17JxoIsqHQykm8Rb1aWtXAdRz1c3MQjDvKhvjToIZtHJ0bLz7vDcRLyeXw7uymxKakRjkLr9XOVQu9+BJQ0Dr2FdHwRzOkmt1sFfwI62j/Bb4E1qImnO/zg4ZRT6LwZTiQU9piuqgyeTBJJ/4idFy0zBtmE5LEGsge4gKSnKbAAU0/qvfeXUAqKubKBMzvilXqUpjJDqhNo7aKnOvtD9psR4+wDMCod0s/JrkCAlt27/a8BBUxk6kr8+LYx66eUvHdlo94rWUXitl4lD8efzuatzZILo4Qwqdr+1IoXZhRftXbZs4liYLgap1+SFxYaVpKh0Ae5QbeA/drKHZ2KCJErqZ9/vHkhkgbDSjhmAvipzgM5tLAXZeg4IUR7J9QKligf5ER3SWEUo47huKYnaimgvyodGI21LVOSpQLvbKPcXIj38k5qDpdWkbyh7sx1I3EuLOjDmr+Bysd8YMU4yXrTn4r1HqSpiarlHMbL4",
+      "iv": "EiJqVoYaeFAwp17Z",
+      "ratchetIndex": 2,
+      "keyEpoch": 4,
+      "cipherSuite": "ECDH-P256 / Chiat-Ratchet AES-256-GCM",
+      "senderFingerprint": "91023 44182 62019 33812 19042 77215",
+      "reactions": {}
+    },
+    {
+      "id": "msg_103",
+      "conversationId": "conv_security_core",
+      "senderId": "usr_priya",
+      "senderName": "Priya Nair",
+      "senderAvatarUrl": "/src/assets/images/avatar_priya_1794645820867.jpg",
+      "createdAt": 1794644718448,
+      "ciphertext": "MXhq+bNl3xre64uLe+IbjjkqEkcOloZS/Z0GCJBudeNi6sMjqY7g0DT4hBnQC1UpUczYEKxxmjTLzdyVLYLWMss3Wb7tgDkkOZzfVody/X4raHC1HXTqoIzPnBGE+nyYyyVQHIQNXoXbDn2QRS73yyKCCIZasDFktpN/tBiSTaObekAoiz5SFUW/hzAiAen40NvSaE0nz1DShRRNC58VQOUtBiRUwyCyDlztyDZPFfXhfTT5",
+      "iv": "NXENFRBJy3P8lvfV",
+      "ratchetIndex": 3,
+      "keyEpoch": 4,
+      "cipherSuite": "ECDH-P256 / Chiat-Ratchet AES-256-GCM",
+      "senderFingerprint": "55102 88391 12049 66401 73920 11842",
+      "reactions": {}
+    },
+    {
+      "id": "msg_104",
+      "conversationId": "conv_security_core",
+      "senderId": "usr_marcus",
+      "senderName": "Marcus Chen",
+      "senderAvatarUrl": "/src/assets/images/avatar_marcus_1794645820744.jpg",
+      "createdAt": 1794645438448,
+      "ciphertext": "cblXbLiuTt0vdN4MbXRrWIGXKh7J68teJ7AOvarRROqqpk/wwo1gsOdf25p9/O+mDNl1c27nDE79ryv2505Nu4/svdFUWzzsbBi57Qmd12lJOiP8fyC0NLWdgrWo4Pa0MTwKefez8dNoxsQvrvh2XzNgI81qmU8pecXePqSoykVgTXbgsz795o0ngARoUx3IwCvrKj+Taemx7N/4m1kAcY2s2qZUBJzu9cb2LRB9rv/vOMhsJcuzK8NVkwFLBK5evdDcHIwoHxrJbn4jUV3sKTqQcsDTUImSWoDwEwL7auLnvyymgs9UlYzwkcSUK2MQspc=",
+      "iv": "A4cNvsRfScOiPNua",
+      "ratchetIndex": 4,
+      "keyEpoch": 4,
+      "cipherSuite": "ECDH-P256 / Chiat-Ratchet AES-256-GCM",
+      "senderFingerprint": "91023 44182 62019 33812 19042 77215",
+      "reactions": {}
+    },
+    {
+      "id": "msg_105",
+      "conversationId": "conv_security_core",
+      "senderId": "usr_elena",
+      "senderName": "Elena Vance",
+      "senderAvatarUrl": "/src/assets/images/avatar_elena_1794645820461.jpg",
+      "createdAt": 1794645918448,
+      "ciphertext": "hGxduTd6GbmKz3BdV7BQhfbCcHaPWaB+mLDHcjQSCvYIRIn04vNPbqJZCAk48LhCh0smMS+h8fRbf6dGy+eWU+xVo6SQJYv1uzXNVR8mCL9C73dM6DP/YTZAcEFsj2YoaQSW4tcLRzQb5Gz2GBgClEjbbF358jIfUVWk/W00E3sQAynemQu4zoHLDr76TTM/mcbtMje+n1LZaDmiR3aIa5iRjt/n+nT3faQlzIi7Lu8dwf+u/w==",
+      "iv": "/uUBx14w20OO9T/V",
+      "ratchetIndex": 5,
+      "keyEpoch": 4,
+      "cipherSuite": "ECDH-P256 / Chiat-Ratchet AES-256-GCM",
+      "senderFingerprint": "48291 09412 77310 55192 84012 31904",
+      "reactions": {}
+    },
+    {
+      "id": "msg_201",
+      "conversationId": "conv_product_launch",
+      "senderId": "usr_marcus",
+      "senderName": "Marcus Chen",
+      "senderAvatarUrl": "/src/assets/images/avatar_marcus_1794645820744.jpg",
+      "createdAt": 1794640458448,
+      "ciphertext": "MT6PWnEJRPcbmTADjO4d7j26DwfisA/Xb8a6rz2b5uQWSe+It1iNM/MradyK1m128BAT+R9qpbGtxlXLDZ07HUFeFcnFaf85s3pZIyQ/cZqloUVOdzFF+AcSwShouNDhNw7Fz3BQRShOgcmeJ+GhK7fGvr2X",
+      "iv": "0RkYo//TnmjK9jcC",
+      "ratchetIndex": 1,
+      "keyEpoch": 2,
+      "cipherSuite": "ECDH-P256 / Chiat-Ratchet AES-256-GCM",
+      "senderFingerprint": "91023 44182 62019 33812 19042 77215",
+      "reactions": {}
+    },
+    {
+      "id": "msg_202",
+      "conversationId": "conv_product_launch",
+      "senderId": "usr_priya",
+      "senderName": "Priya Nair",
+      "senderAvatarUrl": "/src/assets/images/avatar_priya_1794645820867.jpg",
+      "createdAt": 1794643878448,
+      "ciphertext": "f/ypok6yaKVeux/c5k0EaAh0XoFDy1zEBgXOyqleAXsLwSOCIVHl/qo/DHYdm0DUrBlgiuYbzAoG+B2DbUWUX3318hJvK0U85CJh62YZ9PKlwTUPnRmAw5cvRwQkWb6TySljbHt5qi84yRRZ+781qV0O54nbpy8K9ZVD7Ukgocp3L9u2bWl8P4eJS8MdaNivUqY8fw==",
+      "iv": "qZNIgP0efhgqJY9B",
+      "ratchetIndex": 2,
+      "keyEpoch": 2,
+      "cipherSuite": "ECDH-P256 / Chiat-Ratchet AES-256-GCM",
+      "senderFingerprint": "55102 88391 12049 66401 73920 11842",
+      "reactions": {}
+    },
+    {
+      "id": "msg_301",
+      "conversationId": "conv_elena_dm",
+      "senderId": "usr_elena",
+      "senderName": "Elena Vance",
+      "senderAvatarUrl": "/src/assets/images/avatar_elena_1794645820461.jpg",
+      "createdAt": 1794645198448,
+      "ciphertext": "/k4B7+mDd9mwoeONoIAiVlqL7EDCkDsXhR40CR/xZ7pPQCXC3VNfVDhfeD8mP/RCWnLkYSh065tBjxG466siEc2RpMaGIObNBpftWdzfnEXwpAhIvO6k6ywnlWDBXUCrwZxHvSm3xsYie1zru9icejELHIFRUrMD4/ODxaEPSvYAOBr9zJ6Wv+xrmCYpA2DV/7ExYEL5fUAI7g==",
+      "iv": "8IJ8u2TCtowjde3s",
+      "ratchetIndex": 1,
+      "keyEpoch": 7,
+      "cipherSuite": "ECDH-P256 / Chiat-Ratchet AES-256-GCM",
+      "senderFingerprint": "48291 09412 77310 55192 84012 31904",
+      "reactions": {}
+    },
+    {
+      "id": "msg_401",
+      "conversationId": "conv_family_maya",
+      "senderId": "usr_maya",
+      "senderName": "Maya Lin",
+      "senderAvatarUrl": "/src/assets/images/avatar_maya_1794645820387.jpg",
+      "createdAt": 1794639558448,
+      "ciphertext": "rrOk5sobyTyzXREMkURplfU4c0oqDvyYJaPWjM3MYXtWI5q7PK+XfkycpAOkBgyhc8tu6PrSSwwROQ9qf/SgTU0iGDsOy6/mSApIa3AJam3N07Bln7BvEAyP7UK/2rky0/ou69H2DiCmvsYJ96ojsno7Cc0cyA==",
+      "iv": "RI1Ue3pM2g1Yptv2",
+      "ratchetIndex": 1,
+      "keyEpoch": 3,
+      "cipherSuite": "ECDH-P256 / Chiat-Ratchet AES-256-GCM",
+      "senderFingerprint": "33018 77291 49012 88201 64109 55283",
+      "reactions": {}
+    },
+    {
+      "id": "msg_2c05ef9f",
+      "conversationId": "conv_security_core",
+      "senderId": "me",
+      "senderName": "Marrick (@marrick)",
+      "senderAvatarUrl": "/src/assets/images/avatar_marcus_1794645820744.jpg",
+      "createdAt": 1794646988894,
+      "ciphertext": "BQN2DGL0RqFcMafWOt9W/0M4oq/ay1/f9M8jYRP+v7xiMfgzsfK0/9SBuHwb0hxsUiddlb84Ab+6+1VbOfYoww==",
+      "iv": "NKbstKff5smz1xj6",
+      "ratchetIndex": 6,
+      "keyEpoch": 4,
+      "cipherSuite": "ECDH-P256 / Chiat-Ratchet AES-256-GCM",
+      "senderFingerprint": "738C7 EFDE8 A7568 74D72 15384 E71A8",
+      "reactions": {}
+    }
+  ],
+  "vaultBlobs": [
+    {
+      "cid": "bafybeige8bf42eb569b9cb4471d0116609b0db0b68679daf859",
+      "name": "Kestrel-Ratchet-Audit-v4.txt",
+      "mimeType": "text/plain",
+      "sizeBytes": 479,
+      "iv": "vPQKRYj2KHQJMMP/",
+      "sha256": "e8bf42eb569b9cb4471d0116609b0db0b68679daf8599e1aa24f3d586285bd71",
+      "conversationId": "conv_security_core",
+      "keyEpoch": 4,
+      "storageNodes": [
+        "eu-west-relay-01",
+        "us-east-pin-04",
+        "local-indexeddb-mirror"
+      ],
+      "uploadedAt": 1794643038448
+    }
+  ],
+  "devices": [
+    {
+      "id": "dev_738c7efde8a7",
+      "name": "Linux armv81 Browser Session",
+      "platform": "Web",
+      "lastSyncAt": 1794649116978,
+      "connectedAt": 1794646286463,
+      "isOnline": true,
+      "fingerprint": "738C7 EFDE8 A7568 74D72 15384 E71A8"
+    },
+    {
+      "id": "dev_macbook_pro",
+      "name": "MacBook Pro 16\" (Desktop)",
+      "platform": "macOS",
+      "lastSyncAt": 1794645978448,
+      "connectedAt": 1794473358448,
+      "isOnline": true,
+      "fingerprint": "77420 11893 64012 99201 33410 51928"
+    },
+    {
+      "id": "dev_iphone_16",
+      "name": "iPhone 16 Pro (Face ID)",
+      "platform": "iOS",
+      "lastSyncAt": 1794645498448,
+      "connectedAt": 1794386958448,
+      "isOnline": true,
+      "fingerprint": "19204 88312 45091 22710 66120 40912"
+    }
+  ],
+  "focusState": {
+    "enabled": false,
+    "presetLabel": "Off",
+    "endsAt": null,
+    "silenceSounds": true,
+    "hideUnreadBadges": true,
+    "allowVipBypass": true,
+    "autoReplyText": "In Focus Mode — encrypted messages are queued and will be reviewed shortly."
+  },
+  "calendarEvents": [
+    {
+      "id": "evt_sec_signoff",
+      "title": "Kestrel v4.2 Security & Key Rotation Sign-Off",
+      "conversationId": "conv_security_core",
+      "startIso": "2026-11-15T10:00:00.000Z",
+      "endIso": "2026-11-15T10:30:00.000Z",
+      "location": "Kestrel Encrypted Voice Room",
+      "notes": "Verify Chiat-ratchet test vectors and WebAuthn lock settings across desktop/mobile.",
+      "attendees": [
+        "Elena Vance",
+        "Marcus Chen",
+        "Priya Nair"
+      ],
+      "provider": "Kestrel Calendar"
+    },
+    {
+      "id": "evt_launch_sync",
+      "title": "Q4 Enterprise Rollout & Press Readiness",
+      "conversationId": "conv_product_launch",
+      "startIso": "2026-11-16T14:00:00.000Z",
+      "endIso": "2026-11-16T14:45:00.000Z",
+      "location": "Google Calendar Bridge",
+      "notes": "Finalize Linear release checklist and customer migration guides.",
+      "attendees": [
+        "Marcus Chen",
+        "Priya Nair"
+      ],
+      "provider": "Google Calendar"
+    }
+  ],
+  "dispatches": [
+    {
+      "id": "disp_1",
+      "provider": "Linear",
+      "title": "SEC-418: Finalize WebAuthn biometric fallback UX",
+      "summary": "Synced from Core Security & Protocol discussion on hardware passkey lock.",
+      "conversationId": "conv_security_core",
+      "externalRef": "LIN-418",
+      "status": "Synced",
+      "dispatchedAt": 1794644478448
+    },
+    {
+      "id": "disp_2",
+      "provider": "Notion",
+      "title": "Q4 Customer Zero-Knowledge Architecture Brief",
+      "summary": "Published encrypted digest and decentralized CID verification steps.",
+      "conversationId": "conv_product_launch",
+      "externalRef": "NOTION-892",
+      "status": "Synced",
+      "dispatchedAt": 1794641718448
+    }
+  ],
+  "guardianPolicy": {
+    "childProfileActive": false,
+    "safeMessageFiltering": true,
+    "blockPiiSharing": true,
+    "blockUnsafeLinks": true,
+    "blurUnapprovedMedia": true,
+    "allowlistOnly": true,
+    "approvedContactIds": [
+      "usr_elena",
+      "usr_marcus",
+      "usr_maya"
+    ],
+    "quietHoursEnabled": true,
+    "quietStartHour": 21,
+    "quietEndHour": 7,
+    "auditLog": [
+      {
+        "id": "aud_1",
+        "timestamp": 1794637758448,
+        "conversationId": "conv_family_maya",
+        "ruleTriggered": "PII Shield (Phone Number)",
+        "actionTaken": "Redacted",
+        "preview": "Masked outbound phone number before encryption."
+      }
+    ]
+  },
+  "callLogs": [
+    {
+      "id": "call_1",
+      "conversationId": "conv_elena_dm",
+      "targetName": "Elena Vance",
+      "direction": "incoming",
+      "durationSec": 412,
+      "startedAt": 1794634758448,
+      "cipherSuite": "DTLS-SRTP + AES-256-GCM",
+      "verified": true
+    },
+    {
+      "id": "call_2",
+      "conversationId": "conv_security_core",
+      "targetName": "Core Security & Protocol",
+      "direction": "team",
+      "durationSec": 1280,
+      "startedAt": 1794552558448,
+      "cipherSuite": "MLS-SRTP + Chiat-Ratchet",
+      "verified": true
+    }
+  ],
+  "directoryUsers": [
+    {
+      "id": "me",
+      "displayName": "Marrick",
+      "username": "marrick",
+      "phoneNumber": "+97333972484",
+      "role": "Lawyer",
+      "avatarUrl": "/src/assets/images/avatar_marcus_1794645820744.jpg",
+      "fingerprint": "0990F 22797 BC6CD D6CDF 5F9AD 6469D",
+      "createdAt": 1794646676947
+    },
+    {
+      "id": "usr_elena",
+      "displayName": "Elena Vance",
+      "username": "elena_vance",
+      "phoneNumber": "+14155550101",
+      "role": "Security Architect",
+      "avatarUrl": "/src/assets/images/avatar_elena_1794645820461.jpg",
+      "fingerprint": "48291 09412 77310 55192 84012 31904",
+      "createdAt": 1792054570940
+    },
+    {
+      "id": "usr_marcus",
+      "displayName": "Marcus Chen",
+      "username": "marcus_chen",
+      "phoneNumber": "+14155550102",
+      "role": "VP Engineering",
+      "avatarUrl": "/src/assets/images/avatar_marcus_1794645820744.jpg",
+      "fingerprint": "91023 44182 62019 33812 19042 77215",
+      "createdAt": 1792227370940
+    },
+    {
+      "id": "usr_priya",
+      "displayName": "Priya Nair",
+      "username": "priya_nair",
+      "phoneNumber": "+14155550103",
+      "role": "Design Systems Director",
+      "avatarUrl": "/src/assets/images/avatar_priya_1794645820867.jpg",
+      "fingerprint": "55102 88391 12049 66401 73920 11842",
+      "createdAt": 1792486570940
+    },
+    {
+      "id": "usr_maya",
+      "displayName": "Maya Lin",
+      "username": "maya_lin",
+      "phoneNumber": "+14155550104",
+      "role": "Family · Protected Profile",
+      "avatarUrl": "/src/assets/images/avatar_maya_1794645820387.jpg",
+      "fingerprint": "33018 77291 49012 88201 64109 55283",
+      "createdAt": 1792918570940
+    }
+  ],
+  "myProfile": {
+    "id": "me",
+    "displayName": "Marrick",
+    "username": "marrick",
+    "phoneNumber": "+97333972484",
+    "role": "Lawyer",
+    "avatarUrl": "/src/assets/images/avatar_marcus_1794645820744.jpg",
+    "fingerprint": "0990F 22797 BC6CD D6CDF 5F9AD 6469D",
+    "createdAt": 1794646676947
+  },
+  "monetization": {
+    "storageTier": "free_2gb",
+    "storageQuotaBytes": 2147483648,
+    "reservedHandles": [],
+    "whiteLabel": {
+      "active": false,
+      "tier": "None",
+      "brandName": "Kestrel",
+      "brandTagline": "Chiat-Ratchet E2EE · Synced",
+      "accentColor": "emerald",
+      "customDomain": "",
+      "bundleId": "app.kestrel.secure",
+      "licenseKey": null,
+      "seatsIncluded": 25,
+      "updatedAt": 1794648532163
+    },
+    "invoices": [],
+    "planId": "free",
+    "billingCycle": "monthly",
+    "seats": 3,
+    "limits": {
+      "aiSummariesMonthly": 5,
+      "maxDevices": 3,
+      "maxConversations": 8,
+      "dispatchesMonthly": 5,
+      "vaultQuotaBytes": 2147483648,
+      "whiteLabelIncluded": false
+    },
+    "usage": {
+      "aiSummariesUsed": 0,
+      "dispatchesUsed": 0,
+      "cycleResetAt": 1797240735110
+    }
+  }
+}

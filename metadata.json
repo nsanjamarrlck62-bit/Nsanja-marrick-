@@ -1,0 +1,6 @@
+{
+  "name": "Kestrel",
+  "description": "End-to-end encrypted team and family communication platform with decentralized storage, AI chat summaries, focus mode, biometric lock, calendar sync, and child safety controls.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
